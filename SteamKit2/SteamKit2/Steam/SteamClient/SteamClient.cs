@@ -14,6 +14,7 @@ using System.Threading.Tasks.Dataflow;
 using ProtoBuf;
 using SteamKit2.Authentication;
 using SteamKit2.Internal;
+using SteamKit2.WebUI.Internal;
 
 namespace SteamKit2
 {

@@ -15,6 +15,7 @@ using System.Net.Sockets;
 using System.Threading;
 using System.Threading.Tasks;
 using SteamKit2.Discovery;
+using SteamKit2.WebUI.Internal;
 
 namespace SteamKit2.Internal
 {
