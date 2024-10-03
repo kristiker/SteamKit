@@ -1026,6 +1026,26 @@ namespace SteamKit2.GC.CSGO.Internal
         public void Resetsticker_offset_y() => __pbn__sticker_offset_y = null;
         private float? __pbn__sticker_offset_y;
 
+        [global::ProtoBuf.ProtoMember(10)]
+        public float sticker_offset_z
+        {
+            get => __pbn__sticker_offset_z.GetValueOrDefault();
+            set => __pbn__sticker_offset_z = value;
+        }
+        public bool ShouldSerializesticker_offset_z() => __pbn__sticker_offset_z != null;
+        public void Resetsticker_offset_z() => __pbn__sticker_offset_z = null;
+        private float? __pbn__sticker_offset_z;
+
+        [global::ProtoBuf.ProtoMember(11)]
+        public float sticker_wear_target
+        {
+            get => __pbn__sticker_wear_target.GetValueOrDefault();
+            set => __pbn__sticker_wear_target = value;
+        }
+        public bool ShouldSerializesticker_wear_target() => __pbn__sticker_wear_target != null;
+        public void Resetsticker_wear_target() => __pbn__sticker_wear_target = null;
+        private float? __pbn__sticker_wear_target;
+
     }
 
     [global::ProtoBuf.ProtoContract()]
